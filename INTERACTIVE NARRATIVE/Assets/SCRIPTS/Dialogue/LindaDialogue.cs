@@ -6,17 +6,24 @@ using Yarn.Unity;
 public class LindaDialogue : MonoBehaviour
 {
     [SerializeField] DialogueRunner dialogueRunner;
-    bool collidedWithLinda = false;
+    private int lindaVisits = 0;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            collidedWithLinda = true;
+            // Increment the visit count for Linda
+            lindaVisits++;
 
-            dialogueRunner.dialogue.variableStorage.SetValue("$collidedWithLinda", collidedWithLinda.ToString());
-
-            dialogueRunner.StartDialogue("TalkToLinda"); 
+            // Trigger dialogue based on the visit count
+            if (lindaVisits > 1)
+            {
+                dialogueRunner.StartDialogue("LindaLeaveAlone");
+            }
+            else
+            {
+                dialogueRunner.StartDialogue("TalkToLinda");
+            }
         }
     }
 }

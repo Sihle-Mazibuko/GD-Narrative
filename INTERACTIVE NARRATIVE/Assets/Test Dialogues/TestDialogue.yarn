@@ -3,21 +3,34 @@ tags:
 ---
 Player: I have to find out who killed Xola.
 I should go talk to one of these people and find out more.
- ->Talk to Linda
- <<jump TalkToLinda>>
 ===
+
 title: TalkToLinda
 tags:
 ---
 Linda: Hi, I am Linda.
 Linda: How can I help you?
 -> Player: Who killed Xola?
-<<jump Interrogate>>
-->Nevermind
-<<jump Start>>
+    <<jump Interrogate>>
+-> Nevermind
+    <<jump ChangeMind>>
 ===
+
 title: Interrogate
 tags:
 ---
-Linda: Sorry but I cant help with that. I have to go now.
+Linda: Sorry, but I can't help with that. Please leave me alone.
 ===
+
+title: ChangeMind
+tags:
+---
+Player: Nevermind, you won't be much help.s
+===
+
+title: LindaLeaveAlone
+tags:
+---
+Linda: Please leave me alone.
+===
+
