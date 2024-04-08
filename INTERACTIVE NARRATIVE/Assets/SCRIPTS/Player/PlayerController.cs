@@ -65,6 +65,16 @@ public class PlayerController : MonoBehaviour
             {
                 clueItem.gameObject.SetActive(false);
                 Debug.Log($"Picked up {clueItem.clueItemName}");
+
+                CluePopUp popup = FindObjectOfType<CluePopUp>();
+                if (popup != null)
+                {
+                    popup.ShowPopUp("New clue found!");
+                }
+                else
+                {
+                    Debug.Log("CluePopup object not found!");
+                }
             }
         }
     }
@@ -111,7 +121,6 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                Debug.Log("Circle cast didn't hit anything.");
             }
         }
     }
@@ -130,5 +139,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+
 
 }
