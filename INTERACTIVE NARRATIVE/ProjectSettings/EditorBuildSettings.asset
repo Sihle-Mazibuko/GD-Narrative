@@ -8,4 +8,46 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 04a6f277cca2d5440aa83e38a34c56a5
+  - enabled: 1
+    path: Assets/Scenes/Locations/Courtyard.unity
+    guid: 5183e5214f6aff54ea685ed52b09fa04
+  - enabled: 1
+    path: Assets/Scenes/Locations/Bathrooms.unity
+    guid: 1f2a0a3f1bcd82f44baa84a2a5c09988
+  - enabled: 1
+    path: Assets/Scenes/Locations/ChangeRoom.unity
+    guid: 1444bc8f98921d44c8d1bafa3d462fc5
+  - enabled: 1
+    path: Assets/Scenes/Locations/Classroom1.unity
+    guid: 40343edee0236504a8933594407604af
+  - enabled: 1
+    path: Assets/Scenes/Locations/Classroom2.unity
+    guid: 9ff84a34a92424749864b38d9fdaf937
+  - enabled: 1
+    path: Assets/Scenes/Locations/Classroom3.unity
+    guid: 59ec533b68baf884e967aba322770756
+  - enabled: 1
+    path: Assets/Scenes/Locations/Field.unity
+    guid: e58c9d473b795b84a842db77bf4f4f8f
+  - enabled: 1
+    path: Assets/Scenes/Locations/Hall.unity
+    guid: c82b9b06cfdef4140b3ae83409f34606
+  - enabled: 1
+    path: Assets/Scenes/Locations/Hallway.unity
+    guid: 143041d405b711547913303446f113f6
+  - enabled: 1
+    path: Assets/Scenes/Locations/MeetingRoom.unity
+    guid: fde7056d8b6742741b109be31380b312
+  - enabled: 1
+    path: Assets/Scenes/Locations/Principal'sOffice.unity
+    guid: 1b798586c6917144d925577476e0c2e5
+  - enabled: 1
+    path: Assets/Scenes/Locations/SchoolEntrance.unity
+    guid: d97ad3890845615459c6166a74d813a0
+  - enabled: 1
+    path: Assets/Scenes/Locations/Lockers.unity
+    guid: 6a35011b858595a489de6d3b2af020dc
   m_configObjects: {}
