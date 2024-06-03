@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Clue
   - NPC
+  - Timer
   layers:
   - Default
   - TransparentFX
