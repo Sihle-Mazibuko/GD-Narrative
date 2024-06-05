@@ -924,6 +924,10 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1951047037}
+    - target: {fileID: 4670962229519761557, guid: 665c336a08d19f54dab7baed12d66d91, type: 3}
+      propertyPath: totalTime
+      value: 900
+      objectReference: {fileID: 0}
     - target: {fileID: 4670962229519761558, guid: 665c336a08d19f54dab7baed12d66d91, type: 3}
       propertyPath: m_RootOrder
       value: 0

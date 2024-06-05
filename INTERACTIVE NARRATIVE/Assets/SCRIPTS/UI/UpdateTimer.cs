@@ -28,7 +28,9 @@ public class UpdateTimer : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("TimerText object with tag 'TimerText' not found.");
+            Debug.LogWarning("TimerText object with tag 'Timer' not found.");
         }
     }
+
+
 }

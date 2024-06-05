@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
     public static Timer Instance;
 
-    [SerializeField] float totalTime = 15 * 60;
+    [SerializeField] float totalTime = 15 * 1 ;
 
     float currentTime;
     bool isRunning;
@@ -30,7 +30,6 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
-        // Find the timer text component by tag
         FindTimerText();
     }
 
@@ -48,6 +47,7 @@ public class Timer : MonoBehaviour
                 currentTime = 0;
                 isRunning = false;
                 UpdateTimerDisplay();
+                OnTimerEnd();
             }
         }
     }
@@ -56,30 +56,31 @@ public class Timer : MonoBehaviour
     {
         if (timerText == null) return;
 
+        int minutes = Mathf.FloorToInt(currentTime / 60);
+        float seconds = currentTime % 60;
+        int milliseconds = Mathf.FloorToInt((currentTime % 1) * 1000); 
+
         if (currentTime <= 60)
         {
             timerText.color = Color.red;
             timerText.fontSize = 60;
-            timerText.text = currentTime.ToString("F2") + "s";
+            timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, seconds, milliseconds);
         }
         else if (currentTime <= 5 * 60)
         {
             timerText.color = new Color(1.0f, 0.64f, 0.0f);
             timerText.fontSize = 50;
-            int minutes = Mathf.FloorToInt(currentTime / 60);
-            float seconds = currentTime % 60;
-            timerText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+            timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, seconds, milliseconds);
         }
         else
         {
             timerText.color = Color.white;
             timerText.fontSize = 40;
-            int minutes = Mathf.FloorToInt(currentTime / 60);
-            float seconds = currentTime % 60;
-            timerText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+            timerText.text = string.Format("{0:00}:{1:00}}", minutes, seconds, milliseconds);
         }
-    }
 
+        timerText.text = timerText.text.Replace("." + milliseconds.ToString("000"), "<size=20>" + "." + milliseconds.ToString("000") + "</size>");
+    }
     public void SetTimerText(TextMeshProUGUI newTimerText)
     {
         timerText = newTimerText;
@@ -98,5 +99,10 @@ public class Timer : MonoBehaviour
         {
             Debug.LogWarning("TimerText object with tag 'TimerText' not found.");
         }
+    }
+
+    void OnTimerEnd()
+    {
+        Debug.Log("Timer has reached 0!");
     }
 }

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4670962229519761558}
   - component: {fileID: 4670962229519761557}
-  - component: {fileID: 9163718602230628332}
   m_Layer: 0
   m_Name: Timer Controller
   m_TagString: Untagged
@@ -46,15 +45,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalTime: 900
---- !u!114 &9163718602230628332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4670962229519761556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21db19dfafb09684abc2fc7a76205c7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
