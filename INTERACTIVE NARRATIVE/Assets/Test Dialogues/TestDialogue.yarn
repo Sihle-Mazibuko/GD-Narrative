@@ -11,12 +11,12 @@ tags:
 Linda: Hi, I am Linda.
 Linda: How can I help you?
 -> Player: Who killed Xola?
-    <<jump Interrogate>>
+    <<jump Interrogation>>
 -> Nevermind
     <<jump ChangeMind>>
 ===
 
-title: Interrogate
+title: Interrogation
 tags:
 ---
 Linda: Sorry, but I can't help with that. Please leave me alone.
@@ -25,7 +25,7 @@ Linda: Sorry, but I can't help with that. Please leave me alone.
 title: ChangeMind
 tags:
 ---
-Player: Nevermind, you won't be much help.s
+Player: Nevermind, you won't be much help.
 ===
 
 title: LindaLeaveAlone
@@ -34,3 +34,38 @@ tags:
 Linda: Please leave me alone.
 ===
 
+title: Start2
+tags:
+---
+Player: Let me see if she knows something.
+===
+
+title: TalkToCharlene
+tags:
+---
+Charlene: Hi, I am Charlene.
+Charlene: How can I help you?
+-> Player: Who killed Xola?
+    <<jump Interogate>>
+-> Sympathise
+    <<jump Sympathise>>
+===
+
+title: Interogate
+tags:
+---
+Charlene: I honestly don't know. 
+But when you do find out, please let us know. 
+===
+
+title: Sympathise
+tags:
+---
+Player: It's okay, I see you're still hurt. I'll give you space for now. 
+===
+
+title: CharleneLeaveAlone
+tags:
+---
+Charlene: Please leave me alone.
+===
