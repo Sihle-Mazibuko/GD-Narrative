@@ -70,3 +70,46 @@ tags:
 Charlene: Please leave me alone.
 ===
 
+
+title: Start3
+tags:
+---
+Player: I better find the principal.
+He should know his own students.
+===
+
+title: TalkToPrincipal
+tags:
+---
+Principal: Detective Zandile, so glad you made it.
+Any updates?
+
+title: BeginnerQuestion
+tags:
+Player: I was hoping you could help me with that.
+Player: Have you noticed any strange behaviour within the students' behaviours?
+-> Yes
+    <<jump BeginInterogation>>
+-> Decline
+    <<jump OffTheHook>>
+===
+
+title: BeginInterogation
+tags:
+---
+Principal: If I'm being honest, yes. 
+===
+
+title: OffTheHook
+tags:
+---
+Principal: No, Detective. All my students are currently either in shock or mourning.
+This is a very difficult time for us as a school.
+The investigation has been the last thing on my mind. 
+===
+
+title: PrincipalLeaveAlone
+tags:
+---
+Player: It's okay, Sir. I understand.
+===
