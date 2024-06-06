@@ -12,10 +12,8 @@ public class LindaDialogue : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Increment the visit count for Linda
             lindaVisits++;
 
-            // Trigger dialogue based on the visit count
             if (lindaVisits > 1)
             {
                 dialogueRunner.StartDialogue("LindaLeaveAlone");

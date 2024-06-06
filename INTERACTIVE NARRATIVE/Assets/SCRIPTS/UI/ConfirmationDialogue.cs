@@ -8,11 +8,13 @@ public class ConfirmationDialogue : MonoBehaviour
 {
     public static ConfirmationDialogue Instance;
 
-    [SerializeField] private TextMeshProUGUI confirmationText;
-    [SerializeField] private Button yesButton;
-    [SerializeField] private Button noButton;
+    [SerializeField]  TextMeshProUGUI confirmationText;
+    [SerializeField]  Button yesButton;
+    [SerializeField]  Button noButton;
 
-    private Clue clueToCollect;
+     Clue clueToCollect;
+    GameObject clueGameObj;
+    
 
     void Awake()
     {
@@ -20,9 +22,10 @@ public class ConfirmationDialogue : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void ShowDialogue(Clue clue)
+    public void ShowDialogue(Clue clue, GameObject clueObj)
     {
         clueToCollect = clue;
+        clueGameObj = clueObj;
         confirmationText.text = $"Do you want to collect this clue: a {clue.clueName}?";
         gameObject.SetActive(true);
     }
@@ -31,6 +34,7 @@ public class ConfirmationDialogue : MonoBehaviour
     {
         GameManagment.Instance.AddClue(clueToCollect);
         InventoryUI.Instance.UpdateInventory();
+        Destroy(clueGameObj);
         gameObject.SetActive(false);
     }
 

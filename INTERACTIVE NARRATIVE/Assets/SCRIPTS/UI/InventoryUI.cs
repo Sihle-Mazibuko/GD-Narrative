@@ -12,6 +12,7 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private Transform gridTransform;
     [SerializeField] private GameObject inventoryPanelUI; 
 
+
     void Awake()
     {
         if (Instance == null)
@@ -30,22 +31,25 @@ public class InventoryUI : MonoBehaviour
         UpdateInventory();
     }
 
+
     public void UpdateInventory()
     {
 
-     
+        if (GameManagment.Instance == null || GameManagment.Instance.collectedClues == null || GameManagment.Instance.collectedClues.Count == 0)
+        {
+            return;
+        }
 
         foreach (Transform child in gridTransform)
         {
             Destroy(child.gameObject);
         }
 
-        foreach (Clue clue in GameManagment.Instance.collectedClues)
+       foreach (Clue clue in GameManagment.Instance.collectedClues)
         {
             GameObject clueCard = Instantiate(clueCardPrefab, gridTransform);
-            clueCard.transform.Find("ClueName").GetComponent<TextMeshProUGUI>().text = clue.clueName;
-            clueCard.transform.Find("ClueImage").GetComponent<Image>().sprite = clue.clueImage;
-
+            TextMeshProUGUI clueNameText = clueCard.transform.Find("ClueName").GetComponent<TextMeshProUGUI>();
+            Image clueImage = clueCard.transform.Find("ClueImage").GetComponent<Image>();
         }
     }
 

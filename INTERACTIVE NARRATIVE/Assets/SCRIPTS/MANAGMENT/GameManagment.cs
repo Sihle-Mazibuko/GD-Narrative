@@ -25,7 +25,9 @@ public class GameManagment : MonoBehaviour
     {
         if (!collectedClues.Contains(clue))
         {
+
             collectedClues.Add(clue);
+
         }
     }
 }
