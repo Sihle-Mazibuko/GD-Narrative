@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
     public static Timer Instance;
 
-    [SerializeField] float totalTime = 15 * 1 ;
+    [SerializeField] float totalTime = 15 * 1;
 
     float currentTime;
     bool isRunning;
@@ -58,25 +58,25 @@ public class Timer : MonoBehaviour
 
         int minutes = Mathf.FloorToInt(currentTime / 60);
         float seconds = currentTime % 60;
-        int milliseconds = Mathf.FloorToInt((currentTime % 1) * 1000); 
+        int milliseconds = Mathf.FloorToInt((currentTime % 1) * 1000);
 
         if (currentTime <= 60)
         {
             timerText.color = Color.red;
             timerText.fontSize = 60;
-            timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, seconds, milliseconds);
+            timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, Mathf.Floor(seconds), milliseconds);
         }
         else if (currentTime <= 5 * 60)
         {
             timerText.color = new Color(1.0f, 0.64f, 0.0f);
             timerText.fontSize = 50;
-            timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, seconds, milliseconds);
+            timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, Mathf.Floor(seconds), milliseconds);
         }
         else
         {
             timerText.color = Color.white;
             timerText.fontSize = 40;
-            timerText.text = string.Format("{0:00}:{1:00}}", minutes, seconds, milliseconds);
+            timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, Mathf.Floor(seconds), milliseconds);
         }
 
         timerText.text = timerText.text.Replace("." + milliseconds.ToString("000"), "<size=20>" + "." + milliseconds.ToString("000") + "</size>");
@@ -106,3 +106,4 @@ public class Timer : MonoBehaviour
         Debug.Log("Timer has reached 0!");
     }
 }
+
