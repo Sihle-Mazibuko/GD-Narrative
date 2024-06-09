@@ -4,15 +4,17 @@ using TMPro;  // If using TextMeshPro
 using UnityEngine;
 using UnityEngine.EventSystems;  // Required when using Event data
 
-public class XolaProfile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class ThaboProfile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public TextMeshProUGUI hoverText;  // Reference to the TextMeshPro text
     public RectTransform backgroundRect;  // Reference to the background RectTransform
     // public Text hoverText;  // Use this if you are using the standard UI Text
 
-    private string displayText = "XOLA:" +
-        "- Murdered student" +
-        "- Prom queen nominee";  // Text to display
+    private string displayText = "THABO" +
+"- Brooding loner and outcast AKA ‘weird kid’" +
+"- Bullied by Xola and her clique ever since Thabo " +
+   "first entered the high school in Grade 10." +
+"- Misunderstood; Quiet; dark demeanour ";  // Text to display
 
     private bool isHovering = false;  // Track if the mouse is hovering
 
@@ -58,3 +60,6 @@ public class XolaProfile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         backgroundRect.localPosition = position;  // Match the background position with the text
     }
 }
+
+
+
