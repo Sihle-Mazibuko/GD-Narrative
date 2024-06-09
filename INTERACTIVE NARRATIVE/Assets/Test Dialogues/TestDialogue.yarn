@@ -74,42 +74,87 @@ Charlene: Please leave me alone.
 title: Start3
 tags:
 ---
-Player: I better find the principal.
-He should know his own students.
+Player: Let me ask the principal.
+He should know his own students. 
 ===
-
 title: TalkToPrincipal
 tags:
 ---
-Principal: Detective Zandile, so glad you made it.
-Any updates?
-
-title: BeginnerQuestion
-tags:
+Player: Hey, Principal Carter. Nice to finally meet you.
+Principal: Likewise, Detective Zandile.
+Principal: Any updates?
 Player: I was hoping you could help me with that.
 Player: Have you noticed any strange behaviour within the students' behaviours?
 -> Yes
-    <<jump BeginInterogation>>
--> Decline
-    <<jump OffTheHook>>
+    <<jump YesResponse>>
+-> No
+    <<jump NoResponse>>
 ===
 
-title: BeginInterogation
+title: YesResponse
 tags:
 ---
-Principal: If I'm being honest, yes. 
+Principal: If I'm being honest, yes.
+Player: Could you tell me more about it?
+Principal: Well, some students have been acting out, more than usual. 
+Principal: I've noticed a lot of tension among them.
+Player: Thank you for your time, Principal Carter. This information is very helpful.
+Principal: You're welcome, Detective. I hope you find the answers you're looking for.
 ===
 
-title: OffTheHook
+title: NoResponse
 tags:
 ---
 Principal: No, Detective. All my students are currently either in shock or mourning.
-This is a very difficult time for us as a school.
-The investigation has been the last thing on my mind. 
+Principal: This is a very difficult time for us as a school.
+Principal: The investigation has been the last thing on my mind.
+Player: It's okay, Sir. I understand. Thank you for your time.
+Principal: You're welcome, Detective. I hope you find the answers you're looking for.
 ===
 
-title: PrincipalLeaveAlone
+title: Start4
 tags:
 ---
-Player: It's okay, Sir. I understand.
+Player: Anyone here who may help?
 ===
+
+title: TalkToThabo
+tags:
+---
+Player: Hi, are you Thabo?
+Thabo: Depends on who’s asking…
+Player: I’m Detective Zandile, and I’m investigating Xola’s murder.
+Thabo: Great…So, who is it?
+Player: I don’t know yet, hence I came to you.
+Player: I heard you had a crush on her and she didn't like you back.
+Thabo: What are you insinuating?
+Player: I mean, you liked her, so I’m assuming you knew her of some sort. Do you have any ideas?
+-> Do you have any ideas?
+    <<jump InterrogateThabo>>
+-> Pity
+    <<jump Pity>>
+===
+
+title: InterrogateThabo
+tags:
+---
+Thabo: If I did know anything, would I be here, moping around?
+Player: I don't know man, wouldn't you be out there trying to find something out?
+Player: Unless...
+Thabo: Detective, I've got a Math test to prepare for.
+Thabo: If you don't have anything solid, please leave me alone.
+Player: Okay Thabo, if you say so.
+===
+
+title: Pity
+tags:
+---
+Thabo: *sniffles*
+Player: I understand, this must be really hard for you.
+Thabo: Yeah, it is. She was a friend. 
+Player: If you do think of anything, please let me know.
+Thabo: I will, Detective.
+Player: Thank you for your time, Thabo. Take care.
+Thabo: You too.
+===
+
