@@ -1,0 +1,2511 @@
+fileFormatVersion: 2
+guid: 5bd5eb9b2fa5bdc4a8329d9d04308d85
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mijani_wald_A2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaec842a20e2e54294c2a7522f6a84e
+      internalID: -786762765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a673ac2afdaad4580b590045ec02c9
+      internalID: 792756148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241a2f72aa546864c8bdd4f1f7db61ae
+      internalID: 2026808819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d205340167a9439f995f0a504fa87
+      internalID: 393994709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148c9a14963bdb74cb7a9bd0563a1022
+      internalID: 220800685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94905ff1af75259439441a79705bebff
+      internalID: 968336471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7097f6ebecfdec84da64693dc6251fdc
+      internalID: 145140064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa9d7d62c8e6854c87ec1dbe45f22a7
+      internalID: -1099336248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcce67ffcdb26d845954620675b6ef31
+      internalID: 128698371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0217cefcaf8640a684c006e4cbbfe
+      internalID: -271112892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dab60552fb65604386788ee17e858fd
+      internalID: -845993988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371503ccb545af64586e6f22339ab680
+      internalID: -2069268234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f592d6f68f6d9498b1675924122581
+      internalID: -478137124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300acf32f743c7c4084b9ddb14472699
+      internalID: 357902425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf2a5928362f54428b2aa6c60f15bba
+      internalID: 1581602405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1af753d50ae0a48a60a67665dc2702
+      internalID: -1990696630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6da2173429442d4f8cf661d8b8b6e38
+      internalID: 1851358262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bcbcc1dd01cf2499cfe20185cbc619
+      internalID: 57504239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab53bb15607731c40b33c108ee8748a6
+      internalID: -1050504022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b8a37e921bc1c41a6b5a4081b784e4
+      internalID: 282956411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec1d00ec1075a48ab53804d6b4717a
+      internalID: 100904375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20dcde768e10da40b4e83422aa6829a
+      internalID: -102963146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0af6ea872e27134d98bb521c1ea012d
+      internalID: -285293463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07543bc78b9a8be4fb4a08a1ebe97808
+      internalID: -1783452971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebc8443e645f1242894197b41b6f177
+      internalID: -1969298099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ac961b2db34e84a99330cb82e14f9b
+      internalID: 765290180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8240af65fcf07042b9ef0ca28fa42f9
+      internalID: 455992834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8136bf24e9b533c4090ad697d9d129f2
+      internalID: -332113797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d459e95926f062346b476946c7df6360
+      internalID: -841831527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0706e9f54cec6a144832e336ab3a244e
+      internalID: 1234229850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba341b8754f86f741bb9a39750809874
+      internalID: -1998001358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c911023894a74f14db46a75145b59118
+      internalID: -1340968200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7fb5706af32c749a3080f06b0b9f00
+      internalID: -2136089853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e65a022b9d7f4448a79fe86380a590b
+      internalID: -2091830165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae03eb178aee9bc4f9216295d4ed37d8
+      internalID: -441836940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_35
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ec0a3f492c5994c963d99f57e6cfa4
+      internalID: -194482969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6564fb19f7da14ba1fd8de9f1b479e
+      internalID: -1763148578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52229ce38f2cb340826d8401b0f9fef
+      internalID: 631845308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a44c429db88dcf41b231e60f8b25462
+      internalID: 2010029327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_39
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7790a92e40ba6244286a2a00bbe720e0
+      internalID: 1246720886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff47f4d4cdb32794c8949828895b17f6
+      internalID: 234123579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ae85cf813f5fe4996434192ad68c6e
+      internalID: 649977370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b3eba4771190a43a004131bfa226d9
+      internalID: 650369287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80b48c4933c21e49b5263eaf4d33cd7
+      internalID: 339286810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f06be631d550cd4783097c8df7bf810
+      internalID: 1199954426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e38f494b552dcf43894755d0ac57b54
+      internalID: 398242922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb04b028ef02cb8449b35677e02e66e0
+      internalID: -1175390773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc189e7904bc8f24995d363ab811914f
+      internalID: 1287771673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd861cb361206b4abc06f625ab65cda
+      internalID: 837938887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_49
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9d461fd3df01747a5d63374da7dd5c
+      internalID: 924597065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa22f4adc6e60784e8eac8338fa55ad7
+      internalID: 1102746385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_51
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a593216bbead4094cb24958ebbcd4416
+      internalID: -1714395778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f59759762ba45e4397e8b76db40f8a6
+      internalID: -2023397595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_53
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccb6e0a8d779af4a8d6d50a1df10872
+      internalID: -322258086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e3b81d84aedf747affc164e7c09d41
+      internalID: -1921489485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f3fc2ad20a3b34cab8fbe67843c222
+      internalID: -74282528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77b3297afa6b6841a0d905bbb578a17
+      internalID: 1910589339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7d9e838b47e5e429313c8f5dbd643f
+      internalID: 2094893999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e076f52be2e3445957481f3593dcf5
+      internalID: 1422378083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71b0898a9bd1374882441b6d06fb4b8
+      internalID: -286975954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_60
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc1ba11547199843b7c80bfbcbc7ec5
+      internalID: 135499707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_61
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531197adce1b5aa41aa8f25c54f54c31
+      internalID: -1885348739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d69f3f236ca7984dacd1e919287054c
+      internalID: -217665267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_63
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcb419a26a0129489ec52e90b3a29a9
+      internalID: -1160427215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0e62de18a9a154aa94504f5dfd30a3
+      internalID: -2085208578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_65
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c74f0db551fb584eaf035e6d4cb897f
+      internalID: -852785617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aae9398cf59074dadafeacc1fe2368
+      internalID: 518416618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_67
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1830f9102d1e41a408ad8352ce9797f0
+      internalID: 1437083739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd417939a4890143b3370ada281ec85
+      internalID: 394506509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c75c71f5bebfa45ae7fdd8b39e6bc8
+      internalID: 689465788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae8571444c2708489fcd76d9e73a3f1
+      internalID: -1963487581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_71
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162feeb2640c2a446a3b5054783948f4
+      internalID: 845035890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc170086019bb6489af8f46bc633d9f
+      internalID: 1989787431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_73
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423bd84d84763c24bb264b4dd90307a2
+      internalID: -810571146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541e81f5faddac741ba693f0235bf48e
+      internalID: 861456009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_75
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953ff8a545c91c24aac3710f9a9507c6
+      internalID: -493261086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d73ae096f9731247b024bb3c5955ffc
+      internalID: -530797330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_77
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f7934c86421714e8cfd0cadf542815
+      internalID: 2054865685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaca056fe59e05418eae2d14b42b12c
+      internalID: -1771488796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_79
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a465eed9d3f2c24291011f3f884bd66
+      internalID: 1890874701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_80
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800ac33e5a5b8c94fb479c44a19598bf
+      internalID: -1641260476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_81
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb36f5a104a404468a8b93d4dbaa627
+      internalID: 1513380005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05747eeb822280740ae4d0bce86ca40a
+      internalID: 1963600278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_83
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab59ee8acd6e4eb44a63dfd9b7be7b04
+      internalID: 637881777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb00d0550249893489f543d16cf9744e
+      internalID: -1548366696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_85
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da4778d58e01284e99474f7026f917d
+      internalID: 909267961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55053d356434384fbf3cb7ac5859a6d
+      internalID: -693365948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_87
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28134d411f80ca46a8cbb418588b47a
+      internalID: 869542302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_88
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ddbf7795b1564c809dd80ed9e64a5
+      internalID: 1841710409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_89
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646cbd414050ac0468735a328dadb948
+      internalID: 1956210796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_90
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c203bacc6cf6547bc960db8397a9f6
+      internalID: 1923675535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_91
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00463ec430b7c324f949636138a30278
+      internalID: -1310075045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35721fdecdf72e9438707396c95482f4
+      internalID: -1814484768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a8435968d8ef14db711954b7b88e6c
+      internalID: 543811477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_94
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9c085b5156bf54893508c4f20b4bc5
+      internalID: -1280047661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_95
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc057a08bd805548bb5ab4cc0d31537
+      internalID: -1097907106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_96
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f05b0018481117439267d9c1959f507
+      internalID: 1847474486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_97
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05847df542a415945998e1415908caad
+      internalID: 488304232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3409063c2fe4a489a9ae9d07286630
+      internalID: 198879219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_99
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c508c1cfbec121c4d806351e78596ad2
+      internalID: 1259296025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_100
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86011cdb559ad8f4480b7268213cc6c7
+      internalID: -599292213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_101
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15093592d560a48419c3f5c389dde909
+      internalID: 1754704901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2244a9f15e94f4998c4f05d8e0b035
+      internalID: -1161266816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_103
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a0762a285542d438de96b483cd0d85
+      internalID: -2092642923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675d6ca8b650fe74bb7e1d3109c9df37
+      internalID: 715204914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_105
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a29069ab963ff7418a7a48db5a53dcf
+      internalID: -2090239451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_106
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4303c7e2ae0af49b2fffb9ff7640ca
+      internalID: -2110998206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mijani_wald_A2_107
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1a9ec5b6db76446972d51cf3d41485
+      internalID: -2029442924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mijani_wald_A2_49: 924597065
+      Mijani_wald_A2_72: 1989787431
+      Mijani_wald_A2_9: -271112892
+      Mijani_wald_A2_93: 543811477
+      Mijani_wald_A2_69: 689465788
+      Mijani_wald_A2_25: 765290180
+      Mijani_wald_A2_22: -285293463
+      Mijani_wald_A2_34: -441836940
+      Mijani_wald_A2_78: -1771488796
+      Mijani_wald_A2_57: 2094893999
+      Mijani_wald_A2_89: 1956210796
+      Mijani_wald_A2_40: 234123579
+      Mijani_wald_A2_70: -1963487581
+      Mijani_wald_A2_71: 845035890
+      Mijani_wald_A2_104: 715204914
+      Mijani_wald_A2_32: -2136089853
+      Mijani_wald_A2_36: -1763148578
+      Mijani_wald_A2_66: 518416618
+      Mijani_wald_A2_28: -841831527
+      Mijani_wald_A2_84: -1548366696
+      Mijani_wald_A2_7: -1099336248
+      Mijani_wald_A2_100: -599292213
+      Mijani_wald_A2_26: 455992834
+      Mijani_wald_A2_51: -1714395778
+      Mijani_wald_A2_67: 1437083739
+      Mijani_wald_A2_61: -1885348739
+      Mijani_wald_A2_63: -1160427215
+      Mijani_wald_A2_80: -1641260476
+      Mijani_wald_A2_41: 649977370
+      Mijani_wald_A2_44: 1199954426
+      Mijani_wald_A2_16: 1851358262
+      Mijani_wald_A2_62: -217665267
+      Mijani_wald_A2_58: 1422378083
+      Mijani_wald_A2_95: -1097907106
+      Mijani_wald_A2_45: 398242922
+      Mijani_wald_A2_46: -1175390773
+      Mijani_wald_A2_39: 1246720886
+      Mijani_wald_A2_96: 1847474486
+      Mijani_wald_A2_29: 1234229850
+      Mijani_wald_A2_64: -2085208578
+      Mijani_wald_A2_53: -322258086
+      Mijani_wald_A2_76: -530797330
+      Mijani_wald_A2_105: -2090239451
+      Mijani_wald_A2_18: -1050504022
+      Mijani_wald_A2_60: 135499707
+      Mijani_wald_A2_102: -1161266816
+      Mijani_wald_A2_75: -493261086
+      Mijani_wald_A2_86: -693365948
+      Mijani_wald_A2_106: -2110998206
+      Mijani_wald_A2_8: 128698371
+      Mijani_wald_A2_90: 1923675535
+      Mijani_wald_A2_23: -1783452971
+      Mijani_wald_A2_91: -1310075045
+      Mijani_wald_A2_68: 394506509
+      Mijani_wald_A2_85: 909267961
+      Mijani_wald_A2_6: 145140064
+      Mijani_wald_A2_21: -102963146
+      Mijani_wald_A2_97: 488304232
+      Mijani_wald_A2_13: 357902425
+      Mijani_wald_A2_43: 339286810
+      Mijani_wald_A2_103: -2092642923
+      Mijani_wald_A2_17: 57504239
+      Mijani_wald_A2_31: -1340968200
+      Mijani_wald_A2_56: 1910589339
+      Mijani_wald_A2_79: 1890874701
+      Mijani_wald_A2_81: 1513380005
+      Mijani_wald_A2_87: 869542302
+      Mijani_wald_A2_30: -1998001358
+      Mijani_wald_A2_54: -1921489485
+      Mijani_wald_A2_50: 1102746385
+      Mijani_wald_A2_35: -194482969
+      Mijani_wald_A2_107: -2029442924
+      Mijani_wald_A2_42: 650369287
+      Mijani_wald_A2_59: -286975954
+      Mijani_wald_A2_98: 198879219
+      Mijani_wald_A2_1: 792756148
+      Mijani_wald_A2_10: -845993988
+      Mijani_wald_A2_19: 282956411
+      Mijani_wald_A2_94: -1280047661
+      Mijani_wald_A2_74: 861456009
+      Mijani_wald_A2_27: -332113797
+      Mijani_wald_A2_48: 837938887
+      Mijani_wald_A2_92: -1814484768
+      Mijani_wald_A2_2: 2026808819
+      Mijani_wald_A2_4: 220800685
+      Mijani_wald_A2_33: -2091830165
+      Mijani_wald_A2_24: -1969298099
+      Mijani_wald_A2_52: -2023397595
+      Mijani_wald_A2_83: 637881777
+      Mijani_wald_A2_82: 1963600278
+      Mijani_wald_A2_99: 1259296025
+      Mijani_wald_A2_3: 393994709
+      Mijani_wald_A2_47: 1287771673
+      Mijani_wald_A2_12: -478137124
+      Mijani_wald_A2_88: 1841710409
+      Mijani_wald_A2_14: 1581602405
+      Mijani_wald_A2_55: -74282528
+      Mijani_wald_A2_11: -2069268234
+      Mijani_wald_A2_73: -810571146
+      Mijani_wald_A2_15: -1990696630
+      Mijani_wald_A2_0: -786762765
+      Mijani_wald_A2_37: 631845308
+      Mijani_wald_A2_5: 968336471
+      Mijani_wald_A2_38: 2010029327
+      Mijani_wald_A2_101: 1754704901
+      Mijani_wald_A2_65: -852785617
+      Mijani_wald_A2_77: 2054865685
+      Mijani_wald_A2_20: 100904375
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
