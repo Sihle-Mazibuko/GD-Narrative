@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
 
-public class LindaDialogue : MonoBehaviour
+public class MusaDialogue : MonoBehaviour
 {
     [SerializeField] DialogueRunner dialogueRunner;
-    private int lindaVisits = 0;
+    private int musaVisits = 0;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            lindaVisits++;
+            musaVisits++;
 
-            if (lindaVisits > 1)
+            if (musaVisits > 1)
             {
-                dialogueRunner.StartDialogue("LindaLeaveAlone");
+                dialogueRunner.StartDialogue("MusaLeaveAlone");
             }
             else
             {
-                dialogueRunner.StartDialogue("TalkToLinda");
+                dialogueRunner.StartDialogue("TalkToMusa");
             }
         }
     }

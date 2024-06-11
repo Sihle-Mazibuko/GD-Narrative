@@ -11,12 +11,12 @@ tags:
 Linda: Hi, I am Linda.
 Linda: How can I help you?
 -> Player: Who killed Xola?
-    <<jump Interrogate>>
+    <<jump Interrogation>>
 -> Nevermind
     <<jump ChangeMind>>
 ===
 
-title: Interrogate
+title: Interrogation
 tags:
 ---
 Linda: Sorry, but I can't help with that. Please leave me alone.
@@ -25,12 +25,242 @@ Linda: Sorry, but I can't help with that. Please leave me alone.
 title: ChangeMind
 tags:
 ---
-Player: Nevermind, you won't be much help.s
+Player: Nevermind, you won't be much help.
 ===
 
 title: LindaLeaveAlone
 tags:
 ---
 Linda: Please leave me alone.
+===
+
+title: Start2
+tags:
+---
+Player: Let me see if she knows something.
+===
+
+title: TalkToCharlene
+tags:
+---
+Charlene: Hi, I am Charlene.
+Charlene: How can I help you?
+-> Player: Who killed Xola?
+    <<jump Interogate>>
+-> Sympathise
+    <<jump Sympathise>>
+===
+
+title: Interogate
+tags:
+---
+Charlene: I honestly don't know. 
+But when you do find out, please let us know. 
+===
+
+title: Sympathise
+tags:
+---
+Player: It's okay, I see you're still hurt. I'll give you space for now. 
+===
+
+title: CharleneLeaveAlone
+tags:
+---
+Charlene: Please leave me alone.
+===
+
+
+title: Start3
+tags:
+---
+Player: Let me ask the principal.
+He should know his own students. 
+===
+title: TalkToPrincipal
+tags:
+---
+Player: Hey, Principal Carter. Nice to finally meet you.
+Principal: Likewise, Detective Zandile.
+Principal: Any updates?
+Player: I was hoping you could help me with that.
+Player: Have you noticed any strange behaviour within the students' behaviours?
+-> Yes
+    <<jump YesResponse>>
+-> No
+    <<jump NoResponse>>
+===
+
+title: YesResponse
+tags:
+---
+Principal: If I'm being honest, yes.
+Player: Could you tell me more about it?
+Principal: Well, some students have been acting out, more than usual. 
+Principal: I've noticed a lot of tension among them.
+Player: Thank you for your time, Principal Carter. This information is very helpful.
+Principal: You're welcome, Detective. I hope you find the answers you're looking for.
+===
+
+title: NoResponse
+tags:
+---
+Principal: No, Detective. All my students are currently either in shock or mourning.
+Principal: This is a very difficult time for us as a school.
+Principal: The investigation has been the last thing on my mind.
+Player: It's okay, Sir. I understand. Thank you for your time.
+Principal: You're welcome, Detective. I hope you find the answers you're looking for.
+===
+
+title: Start4
+tags:
+---
+Player: Anyone here who may help?
+===
+
+title: TalkToThabo
+tags:
+---
+Player: Hi, are you Thabo?
+Thabo: Depends on who’s asking…
+Player: I’m Detective Zandile, and I’m investigating Xola’s murder.
+Thabo: Great…So, who is it?
+Player: I don’t know yet, hence I came to you.
+Player: I heard you had a crush on her and she didn't like you back.
+Thabo: What are you insinuating?
+Player: I mean, you liked her, so I’m assuming you knew her of some sort. Do you have any ideas?
+-> Do you have any ideas?
+    <<jump InterrogateThabo>>
+-> Pity
+    <<jump Pity>>
+===
+
+title: InterrogateThabo
+tags:
+---
+Thabo: If I did know anything, would I be here, moping around?
+Player: I don't know man, wouldn't you be out there trying to find something out?
+Player: Unless...
+Thabo: Detective, I've got a Math test to prepare for.
+Thabo: If you don't have anything solid, please leave me alone.
+Player: Okay Thabo, if you say so.
+===
+
+title: Pity
+tags:
+---
+Thabo: *sniffles*
+Player: I understand, this must be really hard for you.
+Thabo: Yeah, it is. She was a friend. 
+Player: If you do think of anything, please let me know.
+Thabo: I will, Detective.
+Player: Thank you for your time, Thabo. Take care.
+Thabo: You too.
+===
+
+title: Start5
+tags:
+---
+Player: Now, who are these two?
+===
+
+title: TalkToMusaAndThando
+tags:
+---
+Player: I need to talk to both of you.
+Thando: Detective Zandile, what brings you here?
+Musa: Yeah, is there something you need?
+Player: I'm investigating Xola's murder. I need to ask you both a few questions.
+Thando: What do you want to know?
+Player: Let's start with where you were at the time of the incident.
+-> Ask Thando
+    <<jump TalkToThando>>
+-> Ask Musa
+    <<jump TalkToMusa>>
+===
+
+title: TalkToThando
+tags:
+---
+Player: Thando, where were you when Xola was murdered?
+Thando: I was...uh, in the Hall, like everyone else.
+Player: Can anyone confirm that?
+Thando: I...I was hidden in the corner most of the time but sure?
+Musa: (interrupts) Thando, you're not helping yourself here.
+Player: Musa, do you know something about this?
+Musa: No, I just... I just think she should have a better alibi.
+Player: Let's get back to Thando. What were you doing "hidden in the corner"?
+Thando: I'm shy, nothing special.
+Player: Alright, let's talk to Musa now.
+<<jump TalkToMusa>>
+===
+
+title: TalkToMusa
+tags:
+---
+Player: Musa, where were you when Xola was murdered?
+Musa: I was with some friends, you can ask them.
+Player: Who are these friends?
+Musa: Just some guys from school. I don't remember their names right now.
+Player: That's convenient. Can anyone else vouch for you?
+Musa: Look, I don't have to prove anything to you.
+Thando: Detective, Musa is telling the truth.
+Player: You seem pretty defensive, Musa. Is there something you're not telling me?
+Musa: No, nothing at all. I'm just tired of these questions.
+-> Press further
+    <<jump PressMusa>>
+-> Back off
+    <<jump BackOff>>
+===
+
+title: PressMusa
+tags:
+---
+Player: Musa, I need you to be honest with me. Where were you really?
+Musa: I told you, I was with some friends. Stop harassing me.
+Thando: Musa, just tell the truth.
+Musa: (angrily) I don't have to listen to this.
+Player: Fine, but know that lying won't help you.
+Musa: Whatever. Are we done here?
+Player: For now. But don't go far.
+<<jump ConfrontThando>>
+===
+
+title: BackOff
+tags:
+---
+Player: Alright, Musa. We'll leave it at that for now.
+Musa: Good. Now if you don't mind, I've got things to do.
+Player: Thando, I'll need to ask you more questions later.
+Thando: Sure, Detective. Anytime.
+Player: Remember, the truth always comes out.
+Musa: We'll see about that.
+===
+
+title: ConfrontThando
+tags:
+---
+Player: Thando, I need you to come clean. What aren't you telling me?
+Thando: I... I don't know what you mean.
+Player: You were very quick to defend Musa. Are you covering for him?
+Thando: No, I just know he didn't do it.
+Player: How can you be so sure?
+Thando: Because... because he was with me.
+Player: So you weren't in the Hall?
+Thando: No, we were together. Please don't tell anyone.
+Player: This isn't looking good for either of you.
+Musa: Thando, why did you say that?
+Thando: I'm sorry, Musa. I couldn't keep lying.
+Player: You two better stay available. I'll need to speak with you again.
+Musa: Fine, Detective. We'll be here.
+Player: Remember, the truth always comes out.
+===
+
+title: LockerRoomLeave
+tags:
+---
+Player: I'll be in touch. Don't leave town.
+Thando: We won't, Detective.
+Musa: You can count on it.
 ===
 

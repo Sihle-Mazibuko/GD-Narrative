@@ -20,7 +20,7 @@ public class ClueInteraction : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(1)) 
             {
-                ConfirmationDialogue.Instance.ShowDialogue(clue);
+                ConfirmationDialogue.Instance.ShowDialogue(clue, gameObject);
             }
         }
     }
