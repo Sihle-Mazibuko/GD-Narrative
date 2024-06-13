@@ -39,3 +39,8 @@ public class TextAnimator : MonoBehaviour
         isTyping = false;
     }
 }
+
+
+
+
+
