@@ -2,22 +2,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class CutsceneController : MonoBehaviour
+public class EndCutsceneController : MonoBehaviour
 {
     public TextAnimator textAnimator;
     public Button continueButton;
     public Image background; // Add this line to reference the background image
     public Sprite[] backgroundImages; // Add this line to reference the background images
-    public string nextSceneName; // Name of the scene to load after cutscene
 
     private string[] dialogueLines = {
-        "It's Prom night at Pretoria High School! And all the Matriculants are looking lavish",
-        "But wait...",
-        "Xola, one of the prom queen nominees has been...",
-        "MURDERED.",
-        "As you’ve been assigned to investigate this case, you’ve heard rumours that you are next in line to get a promotion and be ranked a Police Corporal at your station",
-        "so you deem solving this case as your one shot to solidify that promotion by unravelling the mystery.",
-        "Bring the culprit to justice before the night is over."
+        "The truth is out.",
+        "Linda, driven by jealousy and a desperate need for recognition, took Xola's life on what was meant to be a night of celebration."
     };
 
 
@@ -42,7 +36,7 @@ public class CutsceneController : MonoBehaviour
             {
                 // End of dialogue or transition to next scene
                 Debug.Log("Cutscene finished!");
-                LoadNextScene();
+                Quit();
             }
         }
     }
@@ -60,11 +54,18 @@ public class CutsceneController : MonoBehaviour
         }
     }
 
-    void LoadNextScene()
+    public void Quit()
     {
-        SceneManager.LoadScene(nextSceneName);
+        // If we are running in a standalone build of the game
+#if UNITY_STANDALONE
+        // Quit the application
+        Application.Quit();
+#endif
+
+        // If we are running in the editor
+#if UNITY_EDITOR
+        // Stop playing the scene
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
-
-
 }
-
