@@ -5,8 +5,6 @@ public class CutsceneController : MonoBehaviour
 {
     public TextAnimator textAnimator;
     public Button continueButton;
-    public Image background; // Add this line to reference the background image
-    public Sprite[] backgroundImages; // Add this line to reference the background images
 
     private string[] dialogueLines = {
         "It's Prom night at Pretoria High School! And all the Matriculants are looking lavish",
@@ -28,28 +26,24 @@ public class CutsceneController : MonoBehaviour
 
     void OnContinueButtonClicked()
     {
-        if (currentLineIndex < dialogueLines.Length - 1)
+        if (!textAnimator.IsTyping) // Only proceed if typing is finished
         {
-            currentLineIndex++;
-            ShowNextDialogue();
-        }
-        else
-        {
-            // End of dialogue or transition to next scene
-            Debug.Log("Cutscene finished!");
+            if (currentLineIndex < dialogueLines.Length - 1)
+            {
+                currentLineIndex++;
+                ShowNextDialogue();
+            }
+            else
+            {
+                // End of dialogue or transition to next scene
+                Debug.Log("Cutscene finished!");
+            }
         }
     }
 
     void ShowNextDialogue()
     {
+        textAnimator.ResetTyping(); // Reset previous typing
         textAnimator.StartTyping(dialogueLines[currentLineIndex]);
-
-        // Update the background image if it exists
-        if (currentLineIndex < backgroundImages.Length)
-        {
-            background.sprite = backgroundImages[currentLineIndex];
-        }
     }
 }
-
-
