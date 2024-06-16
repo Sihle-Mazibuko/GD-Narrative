@@ -74,7 +74,7 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            timerText.color = Color.white;
+            timerText.color = Color.black;
             timerText.fontSize = 40;
             timerText.text = string.Format("{0:00}:{1:00}.{2:000}", minutes, Mathf.Floor(seconds), milliseconds);
         }

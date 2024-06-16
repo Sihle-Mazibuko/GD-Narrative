@@ -15,4 +15,4 @@ MonoBehaviour:
   clueName: File
   shortDescription: A file with Xolas information
   longDescription: More details of the clue will be added
-  clueImage: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+  clueImage: {fileID: 21300000, guid: a0ac4e28c12a5364c9718600ba670b5e, type: 3}

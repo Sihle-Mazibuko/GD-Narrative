@@ -15,4 +15,4 @@ MonoBehaviour:
   clueName: Box
   shortDescription: A ballot box
   longDescription: More details of the clue will be added
-  clueImage: {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+  clueImage: {fileID: 21300000, guid: e7e73419ab4fb2247b1fced04568fb2c, type: 3}
