@@ -264,3 +264,100 @@ Thando: We won't, Detective.
 Musa: You can count on it.
 ===
 
+title: Start6
+tags:
+---
+Player: The night was supposed to be a celebration, but it quickly turned into a nightmare.
+Detective: Detective Zandi cautiously enters the school bathroom, following the trail of blood...
+===
+
+title: GoToXola
+tags:
+---
+Player: There, lying on the cold tile floor, is Xola. Her once vibrant presence now reduced to lifelessness.
+-> Examine Xola
+    <<jump ExamineXola>>
+-> Look around the room
+    <<jump LookAroundRoom>>
+===
+
+title: ExamineXola
+tags:
+---
+Player: As the detective kneels down to examine Xola's body, they notice several bruises and a deep wound on her side.
+
+-> Inspect the wound
+    <<jump InspectWound>>
+-> Look closer at Xola
+    <<jump LookCloserAtXola>>
+===
+
+title: InspectWound
+tags:
+---
+Player: The wound is deep and seems to have been inflicted by a sharp object, possibly a knife.
+<<jump ContinueInvestigation>>
+===
+
+title: LookCloserAtXola
+tags:
+---
+Detective: The detective notices Xola's prom queen sash, now stained with blood. It's a haunting reminder of what this night was supposed to be.
+<<jump ContinueInvestigation>>
+===
+
+title: LookAroundRoom
+tags:
+---
+Player: As the detective's eyes adjust to the dim light, they notice something even more disturbing...
+
+-> Examine the surroundings
+    <<jump ExamineSurroundings>>
+-> Look closer at the crown
+    <<jump LookCloserAtCrown>>
+===
+
+title: ExamineSurroundings
+tags:
+---
+Player: There, on the floor, lies a bloody crown, a twisted symbol of the night's intended festivities.
+<<jump ContinueInvestigation>>
+===
+
+title: LookCloserAtCrown
+tags:
+---
+Player: The detective picks up the bloody crown, realizing it's a crucial piece of evidence.
+<<jump ContinueInvestigation>>
+===
+
+title: ContinueInvestigation
+tags:
+---
+Player: Who could have done such a thing? And why?
+
+-> Investigate further
+    <<jump InvestigateFurther>>
+-> Leave the scene
+    <<jump LeaveScene>>
+===
+
+title: InvestigateFurther
+tags:
+---
+Player: The detective decides to gather more evidence before making any conclusions.
+<<jump End>>
+===
+
+title: LeaveScene
+tags:
+---
+Player: The detective decides to report the findings to the station and return with backup.
+<<jump End>>
+===
+
+title: End
+tags:
+---
+Player: Detective Zandi has more clues now. It's time to unravel the mystery behind Xola's murder.
+===
