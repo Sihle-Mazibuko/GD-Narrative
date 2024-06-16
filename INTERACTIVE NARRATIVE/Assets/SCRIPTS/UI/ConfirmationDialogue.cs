@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -32,6 +33,7 @@ public class ConfirmationDialogue : MonoBehaviour
 
     public void OnYesButtonClicked()
     {
+        Debug.Log("iwork");
         GameManagment.Instance.AddClue(clueToCollect);
         InventoryUI.Instance.UpdateInventory();
         Destroy(clueGameObj);

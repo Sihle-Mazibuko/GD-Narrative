@@ -10,8 +10,12 @@ public class InventoryUI : MonoBehaviour
 
     [SerializeField] private GameObject clueCardPrefab;
     [SerializeField] private Transform gridTransform;
-    [SerializeField] private GameObject inventoryPanelUI; 
-
+    [SerializeField] private GameObject inventoryPanelUI;
+    [SerializeField] private GameObject detailedCluePanel;
+    [SerializeField] private Image detailedClueImage;
+    [SerializeField] private TextMeshProUGUI detailedClueName;
+    [SerializeField] private TextMeshProUGUI detailedClueDescription;
+    [SerializeField] private Button closeButton;
 
     void Awake()
     {
@@ -19,6 +23,8 @@ public class InventoryUI : MonoBehaviour
         {
             Instance = this;
             inventoryPanelUI.SetActive(false);
+            detailedCluePanel.SetActive(false);
+            closeButton.onClick.AddListener(CloseDetailedView);
         }
         else
         {
@@ -31,11 +37,9 @@ public class InventoryUI : MonoBehaviour
         UpdateInventory();
     }
 
-
     public void UpdateInventory()
     {
-
-        if (GameManagment.Instance == null || GameManagment.Instance.collectedClues == null || GameManagment.Instance.collectedClues.Count == 0)
+        if (gridTransform == null || GameManagment.Instance == null)
         {
             return;
         }
@@ -45,11 +49,12 @@ public class InventoryUI : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-       foreach (Clue clue in GameManagment.Instance.collectedClues)
+        foreach (Clue clue in GameManagment.Instance.collectedClues)
         {
             GameObject clueCard = Instantiate(clueCardPrefab, gridTransform);
-            TextMeshProUGUI clueNameText = clueCard.transform.Find("ClueName").GetComponent<TextMeshProUGUI>();
-            Image clueImage = clueCard.transform.Find("ClueImage").GetComponent<Image>();
+            clueCard.transform.Find("ClueName").GetComponent<TextMeshProUGUI>().text = clue.clueName;
+            clueCard.transform.Find("ClueImage").GetComponent<Image>().sprite = clue.clueImage;
+            clueCard.GetComponent<Button>().onClick.AddListener(() => ShowDetailedView(clue));
         }
     }
 
@@ -61,9 +66,22 @@ public class InventoryUI : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I)) 
+        if (Input.GetKeyDown(KeyCode.I))
         {
             ToggleInventory();
         }
+    }
+
+    private void ShowDetailedView(Clue clue)
+    {
+        detailedClueName.text = clue.clueName;
+        detailedClueImage.sprite = clue.clueImage;
+        detailedClueDescription.text = clue.longDescription; 
+        detailedCluePanel.SetActive(true);
+    }
+
+    private void CloseDetailedView()
+    {
+        detailedCluePanel.SetActive(false);
     }
 }
