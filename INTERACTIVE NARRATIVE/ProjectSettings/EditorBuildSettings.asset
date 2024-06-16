@@ -9,11 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/BeginningCutScene.unity
-    guid: badc0178cb28aa249a6fbbe18ecac914
+    path: Assets/Scenes/Menu.unity
+    guid: ba4709696e6cfe249a42bccea5e8e13c
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 365dd5244c47f6d4bb30f17e5b2c8d08
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 3768b1b33dea66040a7433b5fb3b6785
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Map.unity
     guid: 04a6f277cca2d5440aa83e38a34c56a5
+  - enabled: 1
+    path: Assets/Scenes/BeginningCutScene.unity
+    guid: badc0178cb28aa249a6fbbe18ecac914
   - enabled: 1
     path: Assets/Scenes/Locations/Courtyard.unity
     guid: 5183e5214f6aff54ea685ed52b09fa04
