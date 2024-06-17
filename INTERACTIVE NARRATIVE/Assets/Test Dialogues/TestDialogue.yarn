@@ -390,33 +390,4 @@ Player: Detective Zandi has more clues now. It's time to unravel the mystery beh
 ===
 
 
-title: StartKnife
-tags:
----
-Player: *Notices a knife left on the floor.*
-Player: What's this? A knife? This could be important.
--> Examine the Knife
-    <<jump ExamineKnife>>
--> Continue Investigation
-    <<jump ContinueInvestigation>>
-===
 
-title: ExamineKnife
-tags:
----
-Player: *Picks up the knife and examines it closely.*
-Player: There are some strange markings on the handle.
-Player: *Notices dried blood on the blade.*
-Player: This could be a critical piece of evidence.
--> Investigate Further
-    <<jump InvestigateFurtherKnife>>
--> Continue Investigation
-    <<jump ContinueInvestigation>>
-===
-
-title: InvestigateFurtherKnife
-tags:
----
-Player: This knife looks like it could be the murder weapon.
-Player: *Pockets the knife as evidence.*
-===
