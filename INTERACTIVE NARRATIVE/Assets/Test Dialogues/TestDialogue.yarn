@@ -177,6 +177,8 @@ Player: Let's start with where you were at the time of the incident.
     <<jump TalkToThando>>
 -> Ask Musa
     <<jump TalkToMusa>>
+-> Investigate the Room
+    <<jump InvestigateRoom>>
 ===
 
 title: TalkToThando
@@ -211,6 +213,8 @@ Musa: No, nothing at all. I'm just tired of these questions.
     <<jump PressMusa>>
 -> Back off
     <<jump BackOff>>
+-> Investigate the Room
+    <<jump InvestigateRoom>>
 ===
 
 title: PressMusa
@@ -226,15 +230,27 @@ Player: For now. But don't go far.
 <<jump ConfrontThando>>
 ===
 
-title: BackOff
+title: InvestigateRoom
 tags:
 ---
-Player: Alright, Musa. We'll leave it at that for now.
-Musa: Good. Now if you don't mind, I've got things to do.
-Player: Thando, I'll need to ask you more questions later.
-Thando: Sure, Detective. Anytime.
-Player: Remember, the truth always comes out.
-Musa: We'll see about that.
+Player: Let's see what's in this room.
+Player: *Investigates the room and finds a pair of soccer boots.*
+Player: These look like Musa's soccer boots. Why are they here?
+-> Examine the Boots
+    <<jump ExamineBoots>>
+-> Continue Investigation
+    <<jump TalkToMusa>>
+===
+
+title: ExamineBoots
+tags:
+---
+Player: Musa, care to explain why your soccer boots are in this room?
+Musa: What? I... I must have left them here by mistake.
+Player: That's quite a coincidence. Are you sure there's nothing you want to tell me?
+Musa: Look, Detective, I didn't do anything wrong.
+Player: We'll see about that. Don't go anywhere.
+<<jump ConfrontThando>>
 ===
 
 title: ConfrontThando
@@ -256,6 +272,16 @@ Musa: Fine, Detective. We'll be here.
 Player: Remember, the truth always comes out.
 ===
 
+title: BackOff
+tags:
+---
+Player: Alright, Musa. We'll leave it at that for now.
+Musa: Good. Now if you don't mind, I've got things to do.
+Player: Thando, I'll need to ask you more questions later.
+Thando: Sure, Detective. Anytime.
+Player: Remember, the truth always comes out.
+===
+
 title: LockerRoomLeave
 tags:
 ---
@@ -263,6 +289,7 @@ Player: I'll be in touch. Don't leave town.
 Thando: We won't, Detective.
 Musa: You can count on it.
 ===
+
 
 title: Start6
 tags:
@@ -361,3 +388,8 @@ tags:
 ---
 Player: Detective Zandi has more clues now. It's time to unravel the mystery behind Xola's murder.
 ===
+
+
+
+
+
