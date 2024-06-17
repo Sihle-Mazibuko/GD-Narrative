@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
                 {
                     Debug.DrawRay(transform.position, dir * circleRadius, Color.green);
 
-                    Debug.Log($"Circle cast hit: {hit.collider.name} at {hit.point}");
+                    //Debug.Log($"Circle cast hit: {hit.collider.name} at {hit.point}");
 
                     if (Input.GetMouseButtonDown(1))
                     {
