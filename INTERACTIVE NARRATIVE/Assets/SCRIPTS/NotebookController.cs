@@ -6,9 +6,13 @@ public class NotebookController : MonoBehaviour
     public GameObject notebookPanel;
     public Button notebookButton;
     public InputField notebookInputField;
+    public InputField guessInputField; // Input field for guessing the killer
+    public Text feedbackText; // Text to display feedback to the player
+    public Button submitGuessButton; // Button to submit the guess
 
     private bool isNotebookOpen = false;
     private const string NotebookKey = "PlayerNotes"; // Key for storing notes in PlayerPrefs
+    private const string CorrectKillerName = "Linda"; // Correct killer name
 
     private static NotebookController instance;
 
@@ -33,6 +37,9 @@ public class NotebookController : MonoBehaviour
 
         // Add listener to the notebook button
         notebookButton.onClick.AddListener(ToggleNotebook);
+
+        // Add listener to the submit guess button
+        submitGuessButton.onClick.AddListener(CheckGuess);
 
         // Load notes from PlayerPrefs
         LoadNotes();
@@ -62,6 +69,27 @@ public class NotebookController : MonoBehaviour
         if (PlayerPrefs.HasKey(NotebookKey))
         {
             notebookInputField.text = PlayerPrefs.GetString(NotebookKey);
+        }
+    }
+
+    void CheckGuess()
+    {
+        string playerGuess = guessInputField.text.Trim();
+
+        // Add debugging statements
+        Debug.Log("Player guessed: " + playerGuess);
+        Debug.Log("Correct name is: " + CorrectKillerName);
+
+        if (string.Equals(playerGuess, CorrectKillerName, System.StringComparison.OrdinalIgnoreCase))
+        {
+            feedbackText.text = "Congratulations! You guessed correctly. Linda is the killer.";
+            feedbackText.color = Color.green;
+            // You can add more logic here, such as transitioning to a win scene.
+        }
+        else
+        {
+            feedbackText.text = "Incorrect guess. Please try again.";
+            feedbackText.color = Color.red;
         }
     }
 }

@@ -65,13 +65,6 @@ public class InventoryUI : MonoBehaviour
         inventoryPanelUI.SetActive(!isActive);
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            ToggleInventory();
-        }
-    }
 
     private void ShowDetailedView(Clue clue)
     {
