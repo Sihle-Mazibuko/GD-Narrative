@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueName: Soccer boots
   shortDescription: Musas soccer boots
-  longDescription: More details of the clue will be added
+  longDescription: 'Musa lost his soccer boots during his fight with Xola and these
+    seem to be the same boots. '
   clueImage: {fileID: 21300000, guid: a572ee6e1f3126e42925f527fe0dbe5f, type: 3}

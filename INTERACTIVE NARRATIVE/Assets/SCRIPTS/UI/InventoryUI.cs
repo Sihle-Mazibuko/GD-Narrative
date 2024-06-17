@@ -15,6 +15,7 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private Image detailedClueImage;
     [SerializeField] private TextMeshProUGUI detailedClueName;
     [SerializeField] private TextMeshProUGUI detailedClueDescription;
+    [SerializeField] private TextMeshProUGUI shortClueDescription;
     [SerializeField] private Button closeButton;
 
     void Awake()
@@ -76,7 +77,8 @@ public class InventoryUI : MonoBehaviour
     {
         detailedClueName.text = clue.clueName;
         detailedClueImage.sprite = clue.clueImage;
-        detailedClueDescription.text = clue.longDescription; 
+        detailedClueDescription.text = clue.longDescription;
+        detailedClueDescription.text = clue.shortDescription;
         detailedCluePanel.SetActive(true);
     }
 

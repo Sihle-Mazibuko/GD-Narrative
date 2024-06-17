@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Crown
   m_EditorClassIdentifier: 
   clueName: Crown
-  shortDescription: A crown
-  longDescription: More details of the clue will be added
+  shortDescription: Xolas crown
+  longDescription: 'This crown seemed to have belonged to Xola. It may be the crown
+    used to award the prom queen or simply one part of her initial outfit. '
   clueImage: {fileID: 21300000, guid: e93f764c386a7da4ab0dc649b348fd48, type: 3}
