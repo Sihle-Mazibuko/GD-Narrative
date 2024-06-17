@@ -2,6 +2,8 @@
 tags:
 ---
 
+Player: I need to gather more clues about Xola's murder.
+Player: *Enters the school hallway and notices Charlene's ballot box.*
 Player: What's this? Charlene's ballot box? It shouldn't be here.
 -> Examine the Ballot Box
     <<jump ExamineBallotBox>>
@@ -29,6 +31,7 @@ tags:
 Player: Charlene's note seems threatening. Was she targeting Xola?
 Player: *Pockets the note as evidence.*
 Player: I need to talk to Charlene about this.
+Player: *Heads towards Charlene's usual spot in the cafeteria.*
 ===
 
 title: ContinueInvestigation
@@ -36,6 +39,7 @@ tags:
 ---
 Player: I need to keep looking for more clues.
 ===
+
 
 title: StartInvestigation2
 tags:

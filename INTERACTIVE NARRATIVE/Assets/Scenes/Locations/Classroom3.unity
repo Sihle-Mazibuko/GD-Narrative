@@ -123,24 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &149212 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2816948798161469873, guid: b228648f1a51d8c4baafb27df5df102a, type: 3}
-  m_PrefabInstance: {fileID: 299591980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &149213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffe810d84479eb14e8a22733d15e766d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueRunner: {fileID: 1420488815}
 --- !u!1 &4101819
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +745,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: fcea1f95316b5e043b01721a9a3e3d76, type: 2}
     - target: {fileID: 2816948798161469874, guid: b228648f1a51d8c4baafb27df5df102a, type: 3}
       propertyPath: yarnNode
-      value: StartInvestigation2
+      value: ExamineTie
       objectReference: {fileID: 0}
     - target: {fileID: 2816948798161469884, guid: b228648f1a51d8c4baafb27df5df102a, type: 3}
       propertyPath: m_Sprite
@@ -3589,35 +3571,6 @@ PolygonCollider2D:
       - {x: -0.32, y: -0.11}
       - {x: 0.32, y: -0.11}
       - {x: 0.32, y: 0.11}
---- !u!1 &1420488812 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2753718018764665327, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
-  m_PrefabInstance: {fileID: 1628411830}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1420488813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420488812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffe810d84479eb14e8a22733d15e766d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueRunner: {fileID: 1420488815}
---- !u!114 &1420488815 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
-  m_PrefabInstance: {fileID: 1628411830}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420488812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1448717511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4129,12 +4082,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: startNode
-      value: StartInvestigation2
+      value: ExamineTie
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: bd587d78ad9f9cd4587382f75091d345, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: f33f5821a88552f4e811d8d6bf910bca, type: 3}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: startAutomatically
       value: 1
