@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -81,6 +82,7 @@ public class Timer : MonoBehaviour
 
         timerText.text = timerText.text.Replace("." + milliseconds.ToString("000"), "<size=20>" + "." + milliseconds.ToString("000") + "</size>");
     }
+
     public void SetTimerText(TextMeshProUGUI newTimerText)
     {
         timerText = newTimerText;
@@ -104,6 +106,8 @@ public class Timer : MonoBehaviour
     void OnTimerEnd()
     {
         Debug.Log("Timer has reached 0!");
+        SceneManager.LoadScene("GameOver"); 
     }
 }
+
 
