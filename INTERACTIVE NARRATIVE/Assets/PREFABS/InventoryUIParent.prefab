@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -401.5817}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 775, y: -409}
+  m_SizeDelta: {x: 200, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7656767361426463250
 CanvasRenderer:
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -96,12 +96,12 @@ MonoBehaviour:
   m_fontSize: 50
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 16
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -872,7 +872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1331984184940898024
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1782,6 +1782,7 @@ MonoBehaviour:
   clueCardPrefab: {fileID: 7733043645528423274, guid: e7feccd34551a534eaae4d388a1bddbe, type: 3}
   gridTransform: {fileID: 2909428815327942812}
   inventoryPanelUI: {fileID: 1331984185968336950}
+  backPack: {fileID: 7079174758599269282}
   detailedCluePanel: {fileID: 1331984184940898027}
   detailedClueImage: {fileID: 1331984185101358816}
   detailedClueName: {fileID: 1331984186082420776}
@@ -2652,7 +2653,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6594303835612587210}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2664,7 +2665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.806, y: -46.95}
+  m_AnchoredPosition: {x: -8.806, y: -46.94996}
   m_SizeDelta: {x: 1700, y: 821.281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9055738932765032607
@@ -2856,7 +2857,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6151184206384309638}
   m_HandleRect: {fileID: 5396534853760617611}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2880,7 +2881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3699646915953442092
 RectTransform:
   m_ObjectHideFlags: 0

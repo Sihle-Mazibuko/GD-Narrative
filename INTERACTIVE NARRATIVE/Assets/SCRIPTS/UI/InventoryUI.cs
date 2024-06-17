@@ -11,6 +11,7 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private GameObject clueCardPrefab;
     [SerializeField] private Transform gridTransform;
     [SerializeField] private GameObject inventoryPanelUI;
+    [SerializeField] private GameObject backPack;
     [SerializeField] private GameObject detailedCluePanel;
     [SerializeField] private Image detailedClueImage;
     [SerializeField] private TextMeshProUGUI detailedClueName;
@@ -63,6 +64,7 @@ public class InventoryUI : MonoBehaviour
     {
         bool isActive = inventoryPanelUI.activeSelf;
         inventoryPanelUI.SetActive(!isActive);
+        backPack.SetActive(isActive);
     }
 
 
