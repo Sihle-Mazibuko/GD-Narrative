@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", move.magnitude);
 
         CheckForClueItems();
-        MoveTowardsClickedPoint();
+        //MoveTowardsClickedPoint();
     }
 
     void FixedUpdate()
@@ -126,19 +126,19 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void MoveTowardsClickedPoint()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+    //void MoveTowardsClickedPoint()
+    //{
+    //    if (Input.GetMouseButtonDown(0))
+    //    {
+    //        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-            if (hit.collider != null)
-            {
-                targetPos = hit.point;
-                isMovingToClue = true;
-            }
-        }
-    }
+    //        if (hit.collider != null)
+    //        {
+    //            targetPos = hit.point;
+    //            isMovingToClue = true;
+    //        }
+    //    }
+    //}
 
 
 
