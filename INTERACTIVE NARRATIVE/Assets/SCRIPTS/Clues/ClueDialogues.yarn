@@ -2,6 +2,8 @@
 tags:
 ---
 
+Player: I need to gather more clues about Xola's murder.
+Player: *Enters the school hallway and notices Charlene's ballot box.*
 Player: What's this? Charlene's ballot box? It shouldn't be here.
 -> Examine the Ballot Box
     <<jump ExamineBallotBox>>
@@ -29,6 +31,7 @@ tags:
 Player: Charlene's note seems threatening. Was she targeting Xola?
 Player: *Pockets the note as evidence.*
 Player: I need to talk to Charlene about this.
+Player: *Heads towards Charlene's usual spot in the cafeteria.*
 ===
 
 title: ContinueInvestigation
@@ -68,20 +71,71 @@ tags:
 Player: Why would the principal's tie be stained with blood?
 Player: *Pockets the tie as evidence.*
 Player: I need to ask Principal Carter about this.
+Player: *Heads towards the principal's office.*
 ===
 
 title: StartInvestigation3
 tags:
 ---
 
-Player: I need to gather more clues about Xola's murder.
 Player: *Enters the school field and notices a picture with Xola's face scratched out.*
+Player: What's this? Someone scratched out Xola's face in this picture.
+-> Examine the Picture
+    <<jump ExaminePicture>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
 ===
+
 title: ExaminePicture
 tags:
 ---
-
-Player: What's this? Someone scratched out Xola's face in this picture.
+Player: *Picks up the picture and examines it closely.*
 Player: It looks like it was torn from a yearbook. Who would do this?
+Player: *Notices some initials written on the back.*
+Player: "C."
+-> Investigate Further
+    <<jump InvestigateFurtherPicture>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
 
+title: InvestigateFurtherPicture
+tags:
+---
+Player: Why was Xola's face scratched out in this picture?
+Player: *Pockets the picture as evidence.*
+Player: Who's C?
+===
+
+title: StartInvestigation4
+tags:
+---
+
+Player: *Notices a knife left on the floor.*
+Player: What's this? A knife? This could be important.
+-> Examine the Knife
+    <<jump ExamineKnife>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExamineKnife
+tags:
+---
+Player: *Picks up the knife and examines it closely.*
+Player: There are some strange markings on the handle.
+Player: *Notices dried blood on the blade.*
+Player: This could be a critical piece of evidence.
+-> Investigate Further
+    <<jump InvestigateFurtherKnife>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherKnife
+tags:
+---
+Player: This knife looks like it could be the murder weapon.
+Player: *Pockets the knife as evidence.*
+Player: I need to find out who left this here.
 ===

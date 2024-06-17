@@ -754,6 +754,111 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 506254012408393629, guid: d7d77b4dc8a2ea64c976441b361686ac, type: 3}
   m_PrefabInstance: {fileID: 420187987}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &431975776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 541567674264729016, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Size.y
+      value: 2.116013
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674264729016, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.7799628
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674434250211, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Size.x
+      value: 25.138388
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674434250211, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Size.y
+      value: 2.3825798
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674434250211, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Offset.x
+      value: 4.0682936
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674434250211, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Offset.y
+      value: 8.607191
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674582704229, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Size.x
+      value: 2.3212867
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674582704229, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Size.y
+      value: 12.496747
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674582704229, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Offset.x
+      value: -7.95695
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567674582704229, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.3882937
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.808145
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.0186505
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04991772
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421112, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675329421113, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Name
+      value: Bounds
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675461793336, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Size.y
+      value: 13.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541567675461793336, guid: 26990997206fe3146a7faf972c095cda, type: 3}
+      propertyPath: m_Offset.x
+      value: 14.98
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26990997206fe3146a7faf972c095cda, type: 3}
 --- !u!1 &500435939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,6 +1196,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8316689383798963862, guid: bff5bc0dff6c2f343b18db87d64b3c85, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316689383798963862, guid: bff5bc0dff6c2f343b18db87d64b3c85, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316689383798963862, guid: bff5bc0dff6c2f343b18db87d64b3c85, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bff5bc0dff6c2f343b18db87d64b3c85, type: 3}
 --- !u!224 &593681980 stripped
@@ -1257,7 +1374,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2434,7 +2551,7 @@ MonoBehaviour:
   m_Follow: {fileID: 641342132}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 1.8
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -6900,7 +7017,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 1.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
