@@ -36,3 +36,52 @@ tags:
 ---
 Player: I need to keep looking for more clues.
 ===
+
+title: StartInvestigation2
+tags:
+---
+
+Player: *Enters Classroom 3 and notices the principal's tie.*
+Player: What's the principal's tie doing here?
+-> Examine the Tie
+    <<jump ExamineTie>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExamineTie
+tags:
+---
+Player: *Picks up the principal's tie and inspects it closely.*
+Player: There's a strange stain on it, looks like blood.
+Player: *Notices a tag with the principal's initials.*
+Player: "Mr C."
+-> Investigate Further
+    <<jump InvestigateFurtherTie>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherTie
+tags:
+---
+Player: Why would the principal's tie be stained with blood?
+Player: *Pockets the tie as evidence.*
+Player: I need to ask Principal Carter about this.
+===
+
+title: StartInvestigation3
+tags:
+---
+
+Player: I need to gather more clues about Xola's murder.
+Player: *Enters the school field and notices a picture with Xola's face scratched out.*
+===
+title: ExaminePicture
+tags:
+---
+
+Player: What's this? Someone scratched out Xola's face in this picture.
+Player: It looks like it was torn from a yearbook. Who would do this?
+
+===
