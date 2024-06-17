@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class NotebookController : MonoBehaviour
@@ -84,7 +85,9 @@ public class NotebookController : MonoBehaviour
         {
             feedbackText.text = "Congratulations! You guessed correctly. Linda is the killer.";
             feedbackText.color = Color.green;
-            // You can add more logic here, such as transitioning to a win scene.
+            
+            SceneManager.LoadScene("WinScene");
+            
         }
         else
         {
