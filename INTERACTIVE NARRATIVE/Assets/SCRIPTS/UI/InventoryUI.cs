@@ -78,7 +78,7 @@ public class InventoryUI : MonoBehaviour
         detailedClueName.text = clue.clueName;
         detailedClueImage.sprite = clue.clueImage;
         detailedClueDescription.text = clue.longDescription;
-        detailedClueDescription.text = clue.shortDescription;
+        shortClueDescription.text = clue.shortDescription;
         detailedCluePanel.SetActive(true);
     }
 
