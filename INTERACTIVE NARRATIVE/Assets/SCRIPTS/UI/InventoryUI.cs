@@ -11,6 +11,7 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private GameObject clueCardPrefab;
     [SerializeField] private Transform gridTransform;
     [SerializeField] private GameObject inventoryPanelUI;
+    [SerializeField] private GameObject backPack;
     [SerializeField] private GameObject detailedCluePanel;
     [SerializeField] private Image detailedClueImage;
     [SerializeField] private TextMeshProUGUI detailedClueName;
@@ -63,22 +64,16 @@ public class InventoryUI : MonoBehaviour
     {
         bool isActive = inventoryPanelUI.activeSelf;
         inventoryPanelUI.SetActive(!isActive);
+        backPack.SetActive(isActive);
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            ToggleInventory();
-        }
-    }
 
     private void ShowDetailedView(Clue clue)
     {
         detailedClueName.text = clue.clueName;
         detailedClueImage.sprite = clue.clueImage;
         detailedClueDescription.text = clue.longDescription;
-        detailedClueDescription.text = clue.shortDescription;
+        shortClueDescription.text = clue.shortDescription;
         detailedCluePanel.SetActive(true);
     }
 

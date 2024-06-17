@@ -13,7 +13,6 @@ public class GameOver : MonoBehaviour
     public Button QuitButton; // Reference to the quit button
 
     private string[] dialogueLines = {
-        "GAME OVER",
         "You have failed to find the culprit in time. The case is in the process of being handed over to someone else."
     };
 

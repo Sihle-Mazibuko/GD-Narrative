@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 {
     public static Timer Instance;
 
-    [SerializeField] float totalTime = 15 * 1;
+    float totalTime = 600;
 
     float currentTime;
     bool isRunning;

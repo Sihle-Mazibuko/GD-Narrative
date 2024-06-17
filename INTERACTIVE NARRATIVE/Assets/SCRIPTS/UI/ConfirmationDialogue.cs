@@ -33,7 +33,6 @@ public class ConfirmationDialogue : MonoBehaviour
 
     public void OnYesButtonClicked()
     {
-        Debug.Log("iwork");
         GameManagment.Instance.AddClue(clueToCollect);
         InventoryUI.Instance.UpdateInventory();
         Destroy(clueGameObj);

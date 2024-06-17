@@ -2,23 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using Yarn.Unity;
 
 public class ClueInteraction : MonoBehaviour
 {
-    public Clue clue; 
+    public Clue clue;
     private TextMeshProUGUI tooltipText;
     private bool isHovered = false;
+    public string yarnNode;
+    private DialogueRunner dialogueRunner;
 
     void Start()
     {
-        tooltipText = GameObject.FindWithTag("ToolTip").GetComponent<TextMeshProUGUI>(); 
+        tooltipText = GameObject.FindWithTag("ToolTip").GetComponent<TextMeshProUGUI>();
+        dialogueRunner = FindObjectOfType<DialogueRunner>();
+        if (dialogueRunner == null)
+        {
+            Debug.LogError("DialogueRunner not found in the scene.");
+        }
     }
 
     void Update()
     {
         if (isHovered)
         {
-            if (Input.GetMouseButtonDown(1)) 
+            if (Input.GetMouseButtonDown(1))
             {
                 ConfirmationDialogue.Instance.ShowDialogue(clue, gameObject);
             }
@@ -37,4 +45,13 @@ public class ClueInteraction : MonoBehaviour
         isHovered = false;
         tooltipText.gameObject.SetActive(false);
     }
+
+    void OnMouseDown()
+    {
+        if (dialogueRunner != null && !string.IsNullOrEmpty(yarnNode))
+        {
+            dialogueRunner.StartDialogue(yarnNode);
+        }
+    }
 }
+
