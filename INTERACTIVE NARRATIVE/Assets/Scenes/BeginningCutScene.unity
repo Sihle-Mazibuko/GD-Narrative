@@ -470,7 +470,7 @@ MonoBehaviour:
   backgroundImages:
   - {fileID: 21300000, guid: 5f18f3ba3b5c9364ba729fa3f8234ef8, type: 3}
   - {fileID: 21300000, guid: 14626ec021f93a24f9d24c316ba05170, type: 3}
-  - {fileID: 21300000, guid: 785f23af0d8b5264fba46f155e12315a, type: 3}
+  - {fileID: 21300000, guid: 5f18f3ba3b5c9364ba729fa3f8234ef8, type: 3}
   - {fileID: 21300000, guid: 3876bff5cf9e93641a5c38046daffecb, type: 3}
   - {fileID: 21300000, guid: 7719714e22a3c104d99984a8341c2efd, type: 3}
   - {fileID: 21300000, guid: 7719714e22a3c104d99984a8341c2efd, type: 3}
