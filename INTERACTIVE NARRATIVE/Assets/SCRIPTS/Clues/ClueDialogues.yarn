@@ -1,0 +1,38 @@
+﻿title: StartInvestigation
+tags:
+---
+
+Player: What's this? Charlene's ballot box? It shouldn't be here.
+-> Examine the Ballot Box
+    <<jump ExamineBallotBox>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExamineBallotBox
+tags:
+---
+Player: *Opens the ballot box and finds it filled with torn ballots.*
+Player: These ballots are ripped. Why would Charlene discard them here?
+Player: *Notices a note inside the box.*
+Player: *Reads the note.*
+Player: "Xola, you'll pay for this. This should teach you to stay away from what's mine."
+-> Investigate Further
+    <<jump InvestigateFurther>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurther
+tags:
+---
+Player: Charlene's note seems threatening. Was she targeting Xola?
+Player: *Pockets the note as evidence.*
+Player: I need to talk to Charlene about this.
+===
+
+title: ContinueInvestigation
+tags:
+---
+Player: I need to keep looking for more clues.
+===

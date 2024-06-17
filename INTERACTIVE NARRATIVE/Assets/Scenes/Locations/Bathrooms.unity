@@ -172,6 +172,9 @@ MonoBehaviour:
   notebookPanel: {fileID: 1605621594}
   notebookButton: {fileID: 1208582305}
   notebookInputField: {fileID: 737966482}
+  guessInputField: {fileID: 0}
+  feedbackText: {fileID: 0}
+  submitGuessButton: {fileID: 0}
 --- !u!1 &63511067
 GameObject:
   m_ObjectHideFlags: 0
