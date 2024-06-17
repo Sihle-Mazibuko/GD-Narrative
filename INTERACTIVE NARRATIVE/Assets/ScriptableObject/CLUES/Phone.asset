@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueName: Phone
   shortDescription: Thandos phone with a text about Xola
-  longDescription: More details of the clue will be added
+  longDescription: "This phone belongs to Thando, a \u201Ccompanion\u201D of Xola.
+    On the phone, however, there is a text from Charlene stating that Xola had been
+    gossiping and making rude remarks about Thando behind her back. It was noted
+    that Thando dropped her phone in shock and rage-fuelled her to go find out where
+    Xola is to address these accusations, but is this motive enough to kill her?"
   clueImage: {fileID: 21300000, guid: 76e9d7162dd6da6429f674cc2fbfbdb0, type: 3}

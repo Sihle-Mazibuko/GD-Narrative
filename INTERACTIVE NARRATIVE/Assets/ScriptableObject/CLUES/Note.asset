@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Note
   m_EditorClassIdentifier: 
   clueName: Note
-  shortDescription: A note from Musa to Xola
-  longDescription: More details of the clue will be added
+  shortDescription: An apology note from Musa to Xola
+  longDescription: "This appears to be an apology letter from Musa to Xola. The two
+    had recently fought over Musa's infidelity and this serves as a gesture of apologising
+    to Xola and a way to try and fix things between the couple. In the letter, he
+    details that he had a rough childhood that led to his actions, and he has anger
+    issues that he has been trying to work on. Does this mean the letter failed and
+    his anger took over him leading to killing Xola for the sake of \u201Cif I can't
+    have you then no one can\u201D or did the letter never reach her entirely?"
   clueImage: {fileID: 21300000, guid: 5054db4bb49e3864c9636d02c2924da8, type: 3}

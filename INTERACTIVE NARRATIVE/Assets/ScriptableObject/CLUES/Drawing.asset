@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: Drawing
   m_EditorClassIdentifier: 
   clueName: Drawing
-  shortDescription: A weird drawing of Xola
-  longDescription: More details of the clue will be added
+  shortDescription: A weird drawing
+  longDescription: In this drawing, we can see two women. It is hard to decipher
+    what is happening however it seems as though one of the women is either sleeping,
+    unconscious or dead while being held by the other woman. This could be a coincidence
+    because how was this drawing made so quickly or a way of communicating that Xolas's
+    murderer may have been a woman?
   clueImage: {fileID: 21300000, guid: 1fbf091927455f945ae0a63258095a9d, type: 3}

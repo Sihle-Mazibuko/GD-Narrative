@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueName: Picture
   shortDescription: A picture of Xola with a cross
-  longDescription: More details of the clue will be added
+  longDescription: This was the same picture used for the voting system and by no
+    surprise does it have an X over it. The person in the picture is Xola so could
+    this be a discarded vote or a mark that the job has been finished? Charlene could
+    know more about this as she is responsible for the votes, but this is an odd
+    way to cast the vote because none of the other votes only had one option.
   clueImage: {fileID: 21300000, guid: 517e00238f196644daf02ab57c1d7057, type: 3}

@@ -14,5 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueName: Box
   shortDescription: A ballot box
-  longDescription: More details of the clue will be added
+  longDescription: This ballet box contains the votes for the winner of the prom
+    queens winner. On further evaluation Xola was found to be the winner with Linda
+    trailing second. This can raise two suspicions to the killer as Linda could have
+    done it out of spite but the only way she could have found out about the winner
+    is through Charlene who was responsible for counting the votes. This raises suspicions
+    on either of the two being the killer or having committed the crime together
   clueImage: {fileID: 21300000, guid: e7e73419ab4fb2247b1fced04568fb2c, type: 3}

@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueName: File
   shortDescription: A file with Xolas information
-  longDescription: More details of the clue will be added
+  longDescription: This file seems to belong to the victim (Xola). Usually, files
+    like this would be in a secure place that only someone of the highest authority
+    would know the location, but here it has been discarded in the principles office.
+    Maybe the principle needed information regarded Xola and forgot to put back the
+    file or maybe someone used the file for other malicious intents.
   clueImage: {fileID: 21300000, guid: a0ac4e28c12a5364c9718600ba670b5e, type: 3}

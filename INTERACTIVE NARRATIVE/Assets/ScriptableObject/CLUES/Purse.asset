@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueName: Purse
   shortDescription: A pink purse
-  longDescription: More details of the clue will be added
+  longDescription: 'This purse was found in the same location as Linda. What is interesting
+    about it is the red detailing which eerily resembles blood stains. And oddly
+    enough purse belongs to Linda. This could easily have been in her possession
+    when she murdered Xola, or the red detailing may be some sort of staining from
+    another incident. '
   clueImage: {fileID: 21300000, guid: 69301c5cd32814c4eb9afd2575518b83, type: 3}
