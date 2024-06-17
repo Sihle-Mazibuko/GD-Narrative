@@ -16,12 +16,9 @@ public class tie : MonoBehaviour
 
             if (principalVisits > 1)
             {
-                dialogueRunner.StartDialogue("LeaveTie");
+                dialogueRunner.StartDialogue("StartTie");
             }
-            else
-            {
-                dialogueRunner.StartDialogue("ExamineTie");
-            }
+            
         }
     }
 }
