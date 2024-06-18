@@ -4,26 +4,44 @@ using Yarn.Unity;
 
 public class ClueInteraction : MonoBehaviour
 {
-    public Clue clue;
+    public Clue clue; // Reference to the Clue scriptable object
     private TextMeshProUGUI tooltipText;
     private bool isHovered = false;
 
-
-    public string yarnNode;
-
+    public string yarnNode; // Yarn node to start dialogue
     private DialogueRunner dialogueRunner;
-
-
+    public string playerTag = "Player"; // Ensure your player GameObject is tagged as "Player"
 
     void Start()
     {
-
         tooltipText = GameObject.FindWithTag("ToolTip").GetComponent<TextMeshProUGUI>();
 
         dialogueRunner = FindObjectOfType<DialogueRunner>();
         if (dialogueRunner == null)
         {
             Debug.LogError("DialogueRunner not found in the scene.");
+        }
+
+        // Ensure this GameObject has a Collider set to be a trigger
+        Collider collider = GetComponent<Collider>();
+        if (collider != null)
+        {
+            collider.isTrigger = true;
+        }
+        else
+        {
+            Debug.LogError("No Collider found on the GameObject. Please add a Collider and set it as a trigger.");
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(playerTag))
+        {
+            if (dialogueRunner != null && !string.IsNullOrEmpty(yarnNode))
+            {
+                dialogueRunner.StartDialogue(yarnNode);
+            }
         }
     }
 
@@ -34,8 +52,6 @@ public class ClueInteraction : MonoBehaviour
             dialogueRunner.StartDialogue(yarnNode);
         }
     }
-
-
 
     void Update()
     {
@@ -61,5 +77,6 @@ public class ClueInteraction : MonoBehaviour
         tooltipText.gameObject.SetActive(false);
     }
 }
+
 
 
