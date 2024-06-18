@@ -154,3 +154,138 @@ tags:
 Player: Thabo might have had a motive if he was upset about Xola declining his prom invitation.
 Player: *Pockets a petal as evidence.*
 ===
+
+title: StartInvestigation6
+tags:
+---
+
+Player: I need to gather more clues about Xola's murder.
+Player: *Notices Xola's profile file on the principal's desk.*
+Player: What's this? Xola's profile file? Why is it here?
+-> Examine the Profile File
+    <<jump ExamineProfileFile>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExamineProfileFile
+tags:
+---
+Player: *Opens Xola's profile file and skims through the contents.*
+Player: This file has all of Xola's personal details, including her address and family contacts.
+Player: Why would the principal need this now?
+Player: This could be important.
+-> Investigate Further
+    <<jump InvestigateFurtherProfileFile>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherProfileFile
+tags:
+---
+Player: The principal might know more than they're letting on.
+Player: I need to talk to the principal about this.
+Player: *Pockets a note from the file as evidence.*
+Player: *Heads towards the principal's office.*
+===
+
+title: StartInvestigation7
+tags:
+---
+
+Player: I need to gather more clues about Xola's murder.
+Player: *Notices a purse in classroom 2.*
+Player: What's this? A purse? What's it doing here?
+-> Examine the Purse
+    <<jump ExaminePurse>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExaminePurse
+tags:
+---
+Player: *Opens the purse and finds a few items inside.*
+Player: There's a note and some makeup?
+Player: Why would they leave a purse here?
+-> Investigate Further
+    <<jump InvestigateFurtherPurse>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherPurse
+tags:
+---
+Player: *reads note*
+Player: "Don't forget to talk to Xola."
+Player: This note might be important. It could mean something significant.
+Player: *Pockets the note as evidence.*
+===
+
+title: StartInvestigation8
+tags:
+---
+
+Player: *Notices a crumpled note near the lockers.*
+Player: What's this?
+-> Examine the Note
+    <<jump ExamineNote>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExamineNote
+tags:
+---
+Player: *Reads the note carefully.*
+Player: "Xola, I'm sorry for what happened. I never meant for things to go that way. Let's talk before prom and sort this out. - Musa"
+Player: A mystery fight a day before prom? What could it be about?
+Player: I need to talk to Musa about this note.
+-> Investigate Further
+    <<jump InvestigateFurtherNote>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherNote
+tags:
+---
+Player: This note seems important. It hints at a fight between Musa and Xola.
+Player: *Pockets the apology note as evidence.*
+Player: I might need to find Musa and ask him about this fight.
+===
+
+title: StartInvestigation9
+tags:
+---
+
+Player: *Notices a phone lying on the ground.*
+Player: What's this? A phone with Thando's face as the wallpaper?
+Player: I'm guessing it's Thando's phone?
+-> Examine the Phone
+    <<jump ExaminePhone>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExaminePhone
+tags:
+---
+Player: *Unlocks the phone and sees a text message to Xola.*
+Player: "Xola, we need to talk. It's important. Meet me at the usual place."
+Player: This message sounds urgent. Why didn't Xola respond?
+Player: I need to talk to Thando about this.
+-> Investigate Further
+    <<jump InvestigateFurtherPhone>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherPhone
+tags:
+---
+Player: This phone could be a crucial piece of evidence. Thando's involved somehow.
+Player: *Pockets the phone as evidence.*
+===
