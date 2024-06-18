@@ -1907,7 +1907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2816948798161469874, guid: b228648f1a51d8c4baafb27df5df102a, type: 3}
       propertyPath: yarnNode
-      value: StartKnife
+      value: StartInvestigation4
       objectReference: {fileID: 0}
     - target: {fileID: 2816948798161469884, guid: b228648f1a51d8c4baafb27df5df102a, type: 3}
       propertyPath: m_Sprite
@@ -1919,7 +1919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2816948798161469885, guid: b228648f1a51d8c4baafb27df5df102a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 0.884
       objectReference: {fileID: 0}
     - target: {fileID: 2816948798161469885, guid: b228648f1a51d8c4baafb27df5df102a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4207,12 +4207,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yarnProject: {fileID: 7545569452688597077, guid: bd587d78ad9f9cd4587382f75091d345, type: 3}
+  yarnProject: {fileID: 7545569452688597077, guid: f33f5821a88552f4e811d8d6bf910bca, type: 3}
   _variableStorage: {fileID: 1923258098}
   dialogueViews:
   - {fileID: 1606340838}
   - {fileID: 652454819}
-  startNode: StartKnife
+  startNode: StartInvestigation4
   startAutomatically: 1
   runSelectedOptionAsLine: 0
   lineProvider: {fileID: 0}

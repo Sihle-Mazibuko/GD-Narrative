@@ -2,8 +2,7 @@
 tags:
 ---
 
-Player: I need to gather more clues about Xola's murder.
-Player: *Enters the school hallway and notices Charlene's ballot box.*
+Player: *Enters the Meeting Room and notices Charlene's ballot box.*
 Player: What's this? Charlene's ballot box? It shouldn't be here.
 -> Examine the Ballot Box
     <<jump ExamineBallotBox>>
