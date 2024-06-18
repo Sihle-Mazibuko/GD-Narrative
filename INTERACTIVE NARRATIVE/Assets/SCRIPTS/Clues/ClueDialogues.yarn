@@ -121,3 +121,38 @@ Player: This knife looks like it could be the murder weapon.
 Player: *Pockets the knife as evidence.*
 ===
 
+title: StartInvestigation5
+tags:
+---
+
+Player: I need to gather more clues about Xola's murder.
+Player: *Notices a bunch of dead roses on the ground.*
+Player: These roses look like they were for someone special.
+Player: I remember hearing about Thabo asking Xola out for Prom, but she declined.
+-> Examine the Roses
+    <<jump ExamineRoses>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExamineRoses
+tags:
+---
+Player: *Picks up the dead roses and examines them closely.*
+Player: These must be the roses Thabo gave Xola.
+Player: They look like they were discarded in anger.
+Player: This could be a clue to Thabo's involvement.
+-> Investigate Further
+    <<jump InvestigateFurtherRoses>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherRoses
+tags:
+---
+Player: Thabo might have had a motive if he was upset about Xola declining his prom invitation.
+Player: *Pockets a petal as evidence.*
+Player: I need to talk to Thabo about this.
+Player: *Heads towards the cafeteria where Thabo usually hangs out.*
+===
