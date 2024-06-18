@@ -6,21 +6,21 @@ using Yarn.Unity;
 public class pompoms : MonoBehaviour
 {
     [SerializeField] DialogueRunner dialogueRunner;
-    private int principalVisits = 0;
+    private int pompomsVisits = 0;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            principalVisits++;
+            pompomsVisits++;
 
-            if (principalVisits > 1)
+            if (pompomsVisits > 1)
             {
-                dialogueRunner.StartDialogue("LeaveKnife");
+                dialogueRunner.StartDialogue("StartInvestigation10");
             }
             else
             {
-                dialogueRunner.StartDialogue("ExaminePomPoms");
+                dialogueRunner.StartDialogue("ExaminePompoms");
             }
         }
     }

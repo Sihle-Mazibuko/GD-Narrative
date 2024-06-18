@@ -288,3 +288,35 @@ tags:
 Player: This phone could be a crucial piece of evidence. Thando's involved somehow.
 Player: *Pockets the phone as evidence.*
 ===
+
+title: StartInvestigation10
+tags:
+---
+
+Player: *Notices a pair of abandoned pompoms near the lockers.*
+Player: What's this?
+-> Examine the Pompoms
+    <<jump ExaminePompoms>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: ExaminePompoms
+tags:
+---
+Player: *Picks up the pompoms and examines them closely.*
+Player: "These must belong to one of the cheerleaders."
+Player: I should find out which cheerleader these belong to.
+-> Investigate Further
+    <<jump InvestigateFurtherPompoms>>
+-> Continue Investigation
+    <<jump ContinueInvestigation>>
+===
+
+title: InvestigateFurtherPompoms
+tags:
+---
+Player: These pompoms seem important. They might be a clue to something bigger.
+Player: *Decides to keep the pompoms as evidence.*
+Player: I need to talk to the cheerleaders and find out who left these here.
+===
